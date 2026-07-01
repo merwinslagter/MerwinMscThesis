@@ -5,7 +5,7 @@ from globus_sdk import NativeAppAuthClient
 from globus_sdk import TransferClient, TransferData, AccessTokenAuthorizer
 
 # Globus initialization
-CLIENT_ID = "d936db75-acb4-4583-8bf7-7a64144733fc"
+CLIENT_ID = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
 client= NativeAppAuthClient(CLIENT_ID)
 
 flow = client.oauth2_start_flow(
